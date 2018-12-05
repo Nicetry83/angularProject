@@ -7,6 +7,18 @@ const appRoutes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'gameplays',
+    loadChildren: './gameplays/gameplays.module#GameplaysModule',
+  },
+  {
+    path: 'in-progress',
+    loadChildren: './in-progress/in-progress.module#InProgressModule',
+  },
+  {
+    path: 'ideas',
+    loadChildren: './ideas/ideas.module#IdeasModule',
+  },
+  {
     path: '**',
     loadChildren: './page-not-found/page-not-found.module#PageNotFoundModule',
   },

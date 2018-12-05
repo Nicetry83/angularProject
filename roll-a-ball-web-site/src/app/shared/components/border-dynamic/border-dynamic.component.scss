@@ -1,0 +1,7 @@
+@import '~src/variables';
+
+.onclick {
+  border-color: $border-onclick-color;
+  border-width: $border-onclick-width;
+  border-style: $border-onclick-style;
+}

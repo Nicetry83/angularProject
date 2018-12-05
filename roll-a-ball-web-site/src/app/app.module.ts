@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UiModule } from './ui/ui.module';
 import { WelcomeModule } from './welcome/welcome.module';
-import { registerLocaleData } from '@angular/common';
 
 @NgModule({
   declarations: [

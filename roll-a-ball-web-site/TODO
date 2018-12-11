@@ -1,7 +1,8 @@
 
 Todo:
+  ✔ create home button in header @started(18-12-11 16:58) @done(18-12-11 17:44) @lasted(46m47s)
   ☐ create gameplay component content
-     ☐ create download button
+     ✔ create download button @started(18-12-11 17:45) @done(18-12-11 18:42) @lasted(57m50s)
      ☐ create detail component button
   ☐ create in progress component content
   ☐ create ideas component content
